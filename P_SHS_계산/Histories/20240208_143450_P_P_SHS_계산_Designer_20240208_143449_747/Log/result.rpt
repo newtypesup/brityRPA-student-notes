@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="4f70287f-0754-4d69-9c85-264207feafbf" name="P_P_SHS_계산" result="Pass" detail="{}" start="2024-02-08T05:34:53.541" end="2024-02-08T05:35:11.498" jobId="Designer_20240208_143449_747">
+  <Step id="S444468e06d874701a741f21574adb269" taskName="P_P_SHS_계산" type="Desktop" name="InputBox" displayName="InputBox" callDepth="1" depth="2" num="21" result="Pass" start="2024-02-08T05:34:53.614" end="2024-02-08T05:35:11.488" displayTime="17.9s">
+    <Variables>
+      <Variable name="re" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="--Retry--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.re : '네'" runtimeType="String" key="Conditions_Variable" displayKey="Variable" visible="true" required="true" />
+      <Property value="Text" runtimeType="String" key="Conditions_PromptType" displayKey="Prompt Type" visible="true" required="true" />
+      <Property value="'네'" runtimeType="String" key="Conditions_DefaultValue" displayKey="Default Value" visible="true" required="false" />
+      <Property value="Yes" runtimeType="String" key="Conditions_DefaultItem" displayKey="Default Value" visible="false" required="false" />
+      <Property value="'계속 하시겠습니까?'" runtimeType="String" key="Conditions_PromptMessage" displayKey="Guide Message" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Conditions_TimeoutSec" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Options_GotoStepRelativePosition" displayKey="GotoStep Relative Position" visible="false" required="false" />
+      <Property value="1" runtimeType="String" key="Options_GotoStepRetryCount" displayKey="GotoStep Retry Count" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-6FFJE" />
+  </JobInfo>
+</Result>

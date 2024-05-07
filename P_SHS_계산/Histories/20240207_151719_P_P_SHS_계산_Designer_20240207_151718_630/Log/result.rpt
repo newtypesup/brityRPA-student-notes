@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="4f70287f-0754-4d69-9c85-264207feafbf" name="P_P_SHS_계산" result="Pass" detail="{}" start="2024-02-07T06:17:25.814" end="2024-02-07T06:19:21.201" jobId="Designer_20240207_151718_630">
+  <Step id="Sc82c0d8488894d11bb7aad5403b62459" taskName="P_P_SHS_계산" type="Excel" name="OpenExcel" displayName="OpenExcel" callDepth="1" depth="1" num="1" result="Pass" start="2024-02-07T06:17:25.878" end="2024-02-07T06:17:28.514" displayTime="2.6s">
+    <Variables>
+      <Variable name="openEXCEL" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.openEXCEL : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'C:\\Users\\2class_17\\Desktop\\사출원가 계산1.xlsx'" runtimeType="String" key="File_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_Invisible" displayKey="Invisible" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ReadOnly" displayKey="ReadOnly" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ExecuteShell" displayKey="Execute Shell" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="false" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_UsePassword" displayKey="UsePassword" visible="true" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_OpenPassword" displayKey="OpenPassword" visible="false" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_WritePassword" displayKey="WritePassword" visible="false" required="false" />
+      <Property value="Comma(,)" runtimeType="String" key="File_TextDelimiter" displayKey="Text Delimiter" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S5554bdb0c6764aaf9bbece9f09958894" taskName="P_P_SHS_계산" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="1" num="2" result="Pass" start="2024-02-07T06:17:28.531" end="2024-02-07T06:17:28.532" displayTime="0s">
+    <Variables>
+      <Variable name="re" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="this.re == '1'" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S459447ecf9544123a8fdc5f53647d86b" taskName="P_P_SHS_계산" type="Flow" name="DoWhile" displayName="DoWhile" callDepth="1" depth="1" num="3" result="Pass" start="2024-02-07T06:17:28.547" end="2024-02-07T06:17:28.547" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd77338d6192b4fe5a66f939ab396acc6" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="4" result="Pass" start="2024-02-07T06:17:28.562" end="2024-02-07T06:17:28.943" displayTime="0.4s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="LControlKey,PageUp,,-LControlKey" runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S90a9ad6646234402b52572f94d5a92c4" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="5" result="Pass" start="2024-02-07T06:17:28.955" end="2024-02-07T06:17:29.221" displayTime="0.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="LControlKey,Home,,-LControlKey" runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="5" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S0daa8208f9ed4e8ba6d909b8d63f634d" taskName="P_P_SHS_계산" type="Desktop" name="InputBox" displayName="InputBox" callDepth="1" depth="2" num="6" result="Pass" start="2024-02-07T06:17:29.237" end="2024-02-07T06:18:13.023" displayTime="43.8s">
+    <Variables>
+      <Variable name="Name" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.Name : 'Hyungsup'" runtimeType="String" key="Conditions_Variable" displayKey="Variable" visible="true" required="true" />
+      <Property value="Text" runtimeType="String" key="Conditions_PromptType" displayKey="Prompt Type" visible="true" required="true" />
+      <Property value="'Hyungsup'" runtimeType="String" key="Conditions_DefaultValue" displayKey="Default Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Conditions_DefaultItem" displayKey="Default Value" visible="false" required="false" />
+      <Property value="'제품명을 입력해주세요.'" runtimeType="String" key="Conditions_PromptMessage" displayKey="Guide Message" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Conditions_TimeoutSec" displayKey="Timeout(Sec)" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S891bbc6155744243ae6235c1e7d01601" taskName="P_P_SHS_계산" type="Win" name="TextInput" displayName="TextInput" callDepth="1" depth="2" num="7" result="Pass" start="2024-02-07T06:18:13.040" end="2024-02-07T06:18:17.200" displayTime="4.2s">
+    <Variables>
+      <Variable name="Name" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'Hyungsup'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (1번부터 시작)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="10576" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="EXCEL" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'사출원가 계산1.xlsx - Excel'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="XLMAIN" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Window" runtimeType="String" key="Application_ClassType" displayKey="앱 객체 타입" visible="false" required="false" />
+      <Property value="1573968" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="0,0,960,1160" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;Value;GridItem;SelectionItem;Text" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="B5" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.329186.4.55906" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="DataItem" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'&quot;B&quot; 5'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Window|XLMAIN||Win32/Pane|XLDESK||Win32/Custom|||Win32/Pane|ExcelGrid|사출원가 계산1.xlsx|/Pane||사출원가분석|/ ... 30 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="77,492,67,23" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="114,506" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="114,506" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'37, 14'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="'GVTI-001'" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'&quot;B&quot; 5'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="'GVTI-001'" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="30,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-02-06 14:54:14.843" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="'Hyungsup'" runtimeType="String" key="Keyboard_NewText" displayKey="Input Text" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearAll" displayKey="Clear Before" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseDone" displayKey="Done(Enter)" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseRawEvent" displayKey="Raw Event" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_RetryCount" displayKey="Retry Count" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="63,36,67,23" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'33.5, 11.5'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsPassword" displayKey="IsPassword" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="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" />
+  </Step>
+  <Step id="S02355f31b6df428fa343a317c24c2b78" taskName="P_P_SHS_계산" type="Desktop" name="InputBox" displayName="InputBox" callDepth="1" depth="2" num="8" result="Pass" start="2024-02-07T06:18:17.216" end="2024-02-07T06:18:28.376" displayTime="11.2s">
+    <Variables>
+      <Variable name="Barcode" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.Barcode : '11500500100260'" runtimeType="String" key="Conditions_Variable" displayKey="Variable" visible="true" required="true" />
+      <Property value="Text" runtimeType="String" key="Conditions_PromptType" displayKey="Prompt Type" visible="true" required="true" />
+      <Property value="'11500500100260'" runtimeType="String" key="Conditions_DefaultValue" displayKey="Default Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Conditions_DefaultItem" displayKey="Default Value" visible="false" required="false" />
+      <Property value="'[재질] [그레이드] [제품중량] [S/R중량] [설비톤수] [Cav.] [C/T]'" runtimeType="String" key="Conditions_PromptMessage" displayKey="Guide Message" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Conditions_TimeoutSec" displayKey="Timeout(Sec)" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sfecf63ce0407495ca3ad764f9ff38217" taskName="P_P_SHS_계산" type="Win" name="TextInput" displayName="TextInput" callDepth="1" depth="2" num="9" result="Pass" start="2024-02-07T06:18:28.393" end="2024-02-07T06:18:31.329" displayTime="2.9s">
+    <Variables>
+      <Variable name="Barcode" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'11500500100260'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (1번부터 시작)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="10576" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="EXCEL" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'사출원가 계산1.xlsx - Excel'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="XLMAIN" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Window" runtimeType="String" key="Application_ClassType" displayKey="앱 객체 타입" visible="false" required="false" />
+      <Property value="1573968" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8,-8,1936,1176" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;Value;GridItem;SelectionItem;Text" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="C7" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.329186.4.57317" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="DataItem" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'&quot;C&quot; 7'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Window|XLMAIN||Win32/Pane|XLDESK||Win32/Custom|||Win32/Pane|ExcelGrid|사출원가 계산1.xlsx|/Pane||사출원가분석|/ ... 30 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="151,545,517,23" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="386,548" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="394,556" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'243, 11'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="'1.15005E+13'" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'&quot;C&quot; 7'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="'1.15005E+13'" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="1034,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-02-06 15:07:42.759" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="'11500500100260'" runtimeType="String" key="Keyboard_NewText" displayKey="Input Text" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearAll" displayKey="Clear Before" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseDone" displayKey="Done(Enter)" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseRawEvent" displayKey="Raw Event" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_RetryCount" displayKey="Retry Count" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARxSURBVHhe7d1dcpswGIVhrcsL8lp66UV0DV5J7ryUXlDEj4/QEQIaJ3XE+8x8M7VFcPShY3AyDeESrt29a0sIYfrX6HG7dNfiJB/d7RI09rh16kdtrG15/9p17679XON8L7fH9FykYx/u12QRNCI/wKtzjIv+cuvbIc9ta2ONO0tA4vGMwYhvoIuAJMc+2GADSgGJz42VnAXu1y5kK/7Zj9pY484SkJkd1+TYnyIgqTjfML07lOY+P1cba93ZA5I+Pl1A+un315eXLk45zn3tLFEbax0B0bE/xWeQJQVkOJWufc6ojTXu7AFJj33IP4i2YHmA7901WdXDu8NzzuNPMZ7Diw/mtbG2nT4gybEPLV4x5Ad4CEX/3FD5Io8Lfx4L05llVhtrWN6/1nlAevOxnx425WwH+NXonxAQGPonBASG/gkBgaF/QkBg6J8QEBj6JwQEhv5J34v55/wURVlNQWnKx8fH9C/8C/onBASG/gkBgaF/QkBg6J8QEBj6JwQEhv4JAYGhf0JAYOifEBAY+icEBIb+CQGBoX9CQGDonxAQGPonBASG/gkBgaF/QkBg6J8QEBj6JwQEhv4JAYGhf0JAYOifEBAY+ifB/ooDRVGqP79/dRRFlYuAUFSlCAhFVarJD+nAqxAQoIKAABUE5JB499O9N/Nc2XZxY9Cx8htIVm862tt/U9Kx7B7g2XjpNY5Z68t4t9jn6/zAe2gTkF3ivdXnA70VkI1tC/dfTw0LOBmP92ZPF9bW+K79v2yh1uf6uN36iMzGsNjdZN8cAdlBi2r7DLK5bVzAqwt0XESL4eGMcJ0W2tZ4r7r/9Pv7vCN9iV4bzu9BQA7ZtxBG5W2riyRf7IPxXXr4kq3x+GhjER5bpHEO+euV7A8IZ5CmvSggwyXJVOliLV4eJQHYGo+Pavvv/beADOHe27v3QUAO+XxAluI2ySKuBGB4590aN9n+exagbHwpfv1nAjK9/lB79vN+CMghawuhZOe26WXTC84gJrss2z6DpIs6r7VFvmeu036rr/1+CMghXxyQrc8YW+MlhwOSinNYC0XqH+b6QxCQQ74gIPGs8Fw0ha9ZLKqt8YLF/gnIUQTkkLUFWlocpUXTv9tf00ukuE3hF3nJZVT8Pcf+8Z37/5aA9M8tXmc803GJ1bTCQjgUkN7wjq7r+tKH6+GXf/M2hQVVHd/Y/xCQZHys0vd/RHmu+WuV5vruCAhQQUCACgICVBAQoIKAABUh/SkDRVFZlf6jOkVRYxEQiqoUAaGoSjX5IZ2/Lfs59E8ICAz9EwICQ/+EgMDQPyEgMPRPCAgM/RMCAkP/hIDA0D8hIDD0TwgIDP0TAgJD/4SAwNA/ISAw9E8ICAz9EwICQ/+EgMDQPyEgMPRPCAgM/RMCAkP/JMRmUBRVLs4gMPRPCAgM/RMCAkP/hIDA0D8hIDD0TwgIDP0TAgJD/4SAwNA/ISAw9E8ICAz9EwICQ/+EgMDQPyEgMPRPCAgM/RMCAkP/hIDA0L9Z1/0Fw6A/4Y5dQ5gAAAAASUVORK5CYII=" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0,0,200,100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsPassword" displayKey="IsPassword" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="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" />
+  </Step>
+  <Step id="Se689f2ae0eec46d5b85be610a3583ecf" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="10" result="Pass" start="2024-02-07T06:18:31.344" end="2024-02-07T06:18:31.548" displayTime="0.2s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="5" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S5839480e678f4b3f9215291390848258" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="11" result="Pass" start="2024-02-07T06:18:31.564" end="2024-02-07T06:18:31.817" displayTime="0.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="F5," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd347ea069c7749f58ffc2ace734147d0" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="12" result="Pass" start="2024-02-07T06:18:31.833" end="2024-02-07T06:18:32.229" displayTime="0.4s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="P,,D,,F,,Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="5" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sf4aa5d6d3b954bb4a8ea329dfeffe0ad" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="13" result="Pass" start="2024-02-07T06:18:32.246" end="2024-02-07T06:18:32.884" displayTime="0.6s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="LMenu,,F,,E,,P,,Return,,Return,,Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S62aac72cd6534deda3f3827d19058166" taskName="P_P_SHS_계산" type="Win" name="TextInput" displayName="TextInput" callDepth="1" depth="2" num="14" result="Pass" start="2024-02-07T06:18:32.895" end="2024-02-07T06:18:37.710" displayTime="4.8s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (1번부터 시작)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="7736" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="EXCEL" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'사출원가 계산1.xlsx  [읽기 전용] - Excel'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="XLMAIN" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Window" runtimeType="String" key="Application_ClassType" displayKey="앱 객체 타입" visible="false" required="false" />
+      <Property value="461242" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8,-8,1936,1176" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Value;Text;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="1001" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Win32" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.68238" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="Edit" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="Edit" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'파일 이름:'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Window|XLMAIN||Win32/Window|#32770||Win32/Pane|DUIViewWndClassName||Win32/Pane|HWNDView|main|Direct ... 169 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="674,716,791,17" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="793,717" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="801,725" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'127, 9'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="'사출원가 계산1.pdf'" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'파일 이름:'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="'사출원가 계산1.pdf'" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="1582,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-02-06 16:27:22.646" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="'Barcode.pdf'" runtimeType="String" key="Keyboard_NewText" displayKey="Input Text" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearAll" displayKey="Clear Before" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseDone" displayKey="Done(Enter)" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseRawEvent" displayKey="Raw Event" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_RetryCount" displayKey="Retry Count" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAU3SURBVHhe7Z2/atxKGEf1ToIUeRRVrvYZbqcyt9zOrYpbBIxTpjQspAwpguEGFgyGuDEpljQO3GLu/JM0Mxp9Wu16g7J7fnDYlTQjje3vaEabxCl2u51q8/Ly4t8RQkwQhBAhCEKIEAQhRAiCECIEQQgRgiCECEEQQoQgCCFCEIQQIQhCiBAEIUQIghAiBEEIEYIghAhBEEKEIAghQhCEECEIQogQBCFECIIQIgRBCBGCIIQIQRBChCAIIUIQhBAhCEKIECsIAORBEAABBAEQQBAAAQQBEEAQAAEEARBAEAABBAEQQBAAAQQBECj+++dvBQB5EARAAEEABIrir38VHAY5/yDIEZDzjxbkSX30GzbPP9RbXwCr+19qve4L4u3dL98oyP2TO/7+p9rePXRtcwz6+76re6U+vnfHzWvaL3tuva+79sl4UOvn8HvQfq9+qpXeJuefIi4AX8Rd4cbHBoSFu4cgEesfau1leF1BTFG78w2PzSUWxIwvHAc5/2hB4mKaI0hU0DMFsdcJIgkSjqkjI4g7pz6HHvepBAnPS84/s5ZYMaafW2rY7VmCxIUnzyD6OnpMa9+m228E8Un7jInmcOdbWZlconHrmW3r96t7fV0/TjPGLv57RM4/4kO6JMigCIOCnRQlufuPCmKLtR1DsnTKzCAtk4JEYzTb7TXC9xr7NfXb6XnJ+afwr4OYAhoTxBRKbsmz3wzSFqEr1DYDQSI50r76/VGCBDOfxrS3Yx+ckyXWpaebQXJFlRPELjVyhbmXIMks4Jl8SM9xjCDBMtIQChJ/DQhy6SnsnVoXWvfDD9fg0R3cFfeoBFOCZGcEhyjImAjHCJLMIO31h+cMZiy9jSCXl06Qvih6pj7FipgSROAgQQSmBQlEt+K2wgyF4BnksiMKMoslCxLNXm6JZT4Vc0luAuZ6Ptu7J5ZYFx4niN/IZe+iP6Ugo4mXSvvhBAmfQQ6FnH8u8O9iIQjZPwhyBOT8M/rnIIQQBCFEDIIQIoR/cgsggCAAAggCIMAvjgMQKG5vbxUA5CkeHx8VAORBEAABBAEQQBAAAQQBEDixIBtVl6WqN+12o6qiUEVRqWbQFmB59IJsalV2hasLu6rVpj12MLEgm7pUZb2x75uqUFWTtgdYFl4QU8jhXf10gvRSpNcEWB5OkKbq7uzmfWGXQY5uf4deJpW1anSxZ9vYmcj315K1gpgZo21f6P5WvvC6AAvECtJUyZ1cF25V15pc8brniL6wzXY7S4TvNVa2sRnE4GQ7fqYCOA1akLRI2+2xJZCRIN7fPVsYIaomaCstsdrjLLNguWQEmWLYPhQkXjJNCZKZvQAWxGGCJDNI94nUYAYxbZlB4M9FCzK3SE3RB88g0cfDQyF4BoE/GfuQnlv6RFgJ2kJ3RV13n0r1Aljsg7k7VtaNvMQaLMkAloUVZN6d/PXu+k2VyAWwMLwgmsHzwxivI4h5bmH2gKXTC7I3PDfA5XCAIACXA4IACCAIgAC/1QRAgN+LBSCAIAACCAIggCAAAggCIIAgAAIIAiCAIAACCAIggCAAAggCIIAgAAJFWZZKIu3w5cNXVaw+91x/t/tvrj+rq0/uuHlN++22D+qNbxtyc/1VvdvG+yTM+d98eM4eG/JdXYVjDbDnGBnT7tO3qG349ew13jn9k7aW+kF9scef1bv6m7pp28Jvp/D/X3o2OUEidIFd+WI9mSC5AkrIXm8fcmMy+1ZhUZoi7cc4Od5s/3C8U4JpqbsxjQjSXSM9txO//VlEfeAAdup/92Xho80E6IgAAAAASUVORK5CYII=" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0,0,200,100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsPassword" displayKey="IsPassword" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUySURBVHhe7Z0/a9tAGIf1nQQd+lE0ZfJn6Kaxq7esGgshHTsGDB1LhxJowRAINEvoYLqk2/X+Sbo7nV5ZdlxU+/nBQyzpJF2S99HdOWla7HY71ebl5cW/IoSYIAghQhCEECEIQogQBCFECIIQIgRBCBGCIIQIQRBChCAIIUIQhBAhCEKIEAQhRAiCECIEQQgRgiCECEEQQoQgCCFCEIQQIQhCiBAEIUQIghAiBEEIEYIghAhBEEKEIAghQhCEECFWEADIgyAAAggCIIAgAAIIAiCAIAACCAIggCAAAggCIIAgAAIIAiBQFO++KwAYwf9OFiEkEwQhRAhTrCMg5x8EOQJy/tGCPKlPfsPm+Zd66wtgdf9Hrdd9Qby9++MbBbl/csc//Fbbu4eubY7B+f7c1b1Snz644+Zjel722npfd++T8aDWz+HXoP1a/VYrvU3OP0VcAL6Iu8KNjw0IC3cPQSLWv9Tay/C6gpiidtcbHptLLIjpX9gPcv7RgsTFNEeQqKBnCmLvE0QSJOxTR0YQd019Dd3vUwkSXpecf2ZNsWLMeW6qYbdnCRIXnjyC6PvoPq19m26/EcQnPWdMNIe73srK5BL1W49sW79f3ev7+n6aPnbxXyNy/hEX6ZIggyIMCnZSlOTpPyqILda2D8nUKTOCtEwKEvXRbLf3CF9r7OfUb6fXJeef0Z+DmAIaE8QUSm7Ks98I0hahK9Q2A0EiOdJz9eujBAlGPo1pb/s+uCZTrEtPN4LkiioniJ1q5ApzL0GSUcAzuUjPcYwgwTTSEAoSfw4Icukp7JNaF1r3zQ/n4NET3BX3qARTgmRHBIcoyJgIxwiSjCDt/YfXDEYsvY0gl5dOkL4oeqbexYqYEkTgIEEEpgUJRLfitsIMhWANctkRBZnFkgWJRi83xTLvirkkDwFzP5/t3RNTrAuPE8Rv5LJ30Z9SkNHEU6X9cIKEa5BDIeefC/xdLAQh+wdBjoCcf/j3IIQIQRBChCAIIUIQhBAhF7hIB5hB7m8BAYADQQAEitvbWwUAeYrHx0cFAHkQBEAAQQAEEARAAEEABE4syEbVZanqTbvdqKooVFFUqhm0BVgevSCbWpVd4erCrmq1aY8dTCzIpi5VWW/s66YqVNWk7QGWhRfEFHL4VD+dIL0U6T0BlocTpKm6J7t5XdhpkKPb36GnSWWtGl3s2TZ2JPLna8laQcyI0bYv9PlWvvC+AAvECtJUyZNcF25V15pc8bp1RF/YZrsdJcLXGivb2AhicLIdP1IBnAYtSFqk7fbYFMhIEO/v1hZGiKoJ2kpTrPY40yxYLhlBphi2DwWJp0xTgmRGL4AFcZggyQjSvSM1GEFMW0YQ+H/RgswtUlP0wRokent4KARrEPifsYv03NQnwkrQFror6rp7V6oXwGIX5u5YWTfyFGswJQNYFlaQeU/y13vqN1UiF8DC8IJoBuuHMV5HELNuYfSApdMLsjesG+ByOEAQgMsBQQAEEARAgL9qAiDA38UCEEAQAAEEARBAEAABBAEQQBAAAQQBEEAQAAEEARBAEAABBAEQQBAAgaIsSyWRnvD14zdVrL70XP+0+2+uv6irz+64+Ziet9s+qDe+bcjN9Tf1fhvvkzDXf/PxOXtsyE91FfY1wF5jpE+7zz+ituHns1d/55yftLXUD+qrPf6s3tc/1E3bFv454v+TnhMkQhfYlS/WkwmSK6CE7P32Idcns28VFqUp0r6Pk/3Nnh/2d0owLXXXpxFBunuk13bit9+L6Bw4gJ36CyY8Cdn0YvdmAAAAAElFTkSuQmCC" />
+  </Step>
+  <Step id="Sbefcfcfb9fa643139b1fead668b0ae87" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="15" result="Pass" start="2024-02-07T06:18:37.725" end="2024-02-07T06:18:37.978" displayTime="0.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb959a6d599d74720aa2f733b706d672d" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="16" result="Pass" start="2024-02-07T06:18:38.010" end="2024-02-07T06:18:39.754" displayTime="1.7s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Return,,Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="100" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="1000" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="100" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdac99c71d738452ab21b4eadfb3cb173" taskName="P_P_SHS_계산" type="Net" name="SendMail" displayName="SendMail" callDepth="1" depth="2" num="17" result="Pass" start="2024-02-07T06:18:39.769" end="2024-02-07T06:18:40.261" displayTime="0.5s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'smtp.naver.com'" runtimeType="String" key="Mail_HostName" displayKey="Host Name" visible="true" required="true" />
+      <Property value="587" runtimeType="Integer" key="Mail_Port" displayKey="Port" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Mail_UseSSL" displayKey="Use SSL" visible="true" required="true" />
+      <Property value="'shssyup0@naver.com'" runtimeType="String" key="Mail_ID" displayKey="ID" visible="true" required="true" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="Mail_Password" displayKey="Password" visible="true" required="true" />
+      <Property value="'shssyup0@naver.com'" runtimeType="String" key="Mail_Sender" displayKey="Sender" visible="true" required="true" />
+      <Property value="'shssyup0@naver.com'" runtimeType="String" key="Mail_Receivers" displayKey="Receivers" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Mail_CCs" displayKey="CCs" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Mail_BCCs" displayKey="BCCs" visible="true" required="false" />
+      <Property value="'사출 계산기'" runtimeType="String" key="Mail_Subject" displayKey="Subject" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Mail_Body" displayKey="Body" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Mail_IsHtml" displayKey="IsHtml" visible="true" required="false" />
+      <Property value="'C:\\Users\\2class_17\\Desktop\\Barcode.pdf'" runtimeType="String" key="Mail_Attachments" displayKey="Attachements" visible="true" required="false" />
+      <Property value="100" runtimeType="Integer" key="Mail_CheckFileSize" displayKey="File Size (MB)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa4abfe136bfc46ab96df861e4c1d063f" taskName="P_P_SHS_계산" type="Desktop" name="DeleteFile" displayName="DeleteFile" callDepth="1" depth="2" num="18" result="Pass" start="2024-02-07T06:18:40.274" end="2024-02-07T06:18:40.281" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Retry--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\2class_17\\Desktop\\Barcode.pdf'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S7eaa2a859602424db7b7d89eb9a9e9ff" taskName="P_P_SHS_계산" type="Net" name="CloseBrowser" displayName="CloseBrowser" callDepth="1" depth="2" num="19" result="Pass" start="2024-02-07T06:18:40.289" end="2024-02-07T06:18:40.320" displayTime="0s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property runtimeType="Any" key="HTML_BrowserID" displayKey="Browser ID" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="Options_ForceAll" displayKey="ForceAll" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S798228a3eae2416a8db43e79e4ad670f" taskName="P_P_SHS_계산" type="Excel" name="ActivateExcel" displayName="ActivateExcel" callDepth="1" depth="2" num="20" result="Pass" start="2024-02-07T06:18:40.336" end="2024-02-07T06:18:40.403" displayTime="0.1s">
+    <Variables>
+      <Variable name="openEXCEL" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="Workbook" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S4f8ee7dcd2e8406699158bb340521b69" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="21" result="Pass" start="2024-02-07T06:18:40.416" end="2024-02-07T06:18:40.829" displayTime="0.4s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="LControlKey,PageUp,,-LControlKey" runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="100" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S444468e06d874701a741f21574adb269" taskName="P_P_SHS_계산" type="Desktop" name="InputBox" displayName="InputBox" callDepth="1" depth="2" num="22" result="Pass" start="2024-02-07T06:18:40.845" end="2024-02-07T06:18:46.434" displayTime="5.6s">
+    <Variables>
+      <Variable name="re" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="--Retry--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.re : '네'" runtimeType="String" key="Conditions_Variable" displayKey="Variable" visible="true" required="true" />
+      <Property value="Text" runtimeType="String" key="Conditions_PromptType" displayKey="Prompt Type" visible="true" required="true" />
+      <Property value="'네'" runtimeType="String" key="Conditions_DefaultValue" displayKey="Default Value" visible="true" required="false" />
+      <Property value="Yes" runtimeType="String" key="Conditions_DefaultItem" displayKey="Default Value" visible="false" required="false" />
+      <Property value="'계속 하시겠습니까?'" runtimeType="String" key="Conditions_PromptMessage" displayKey="Guide Message" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Conditions_TimeoutSec" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Options_GotoStepRelativePosition" displayKey="GotoStep Relative Position" visible="false" required="false" />
+      <Property value="1" runtimeType="String" key="Options_GotoStepRetryCount" displayKey="GotoStep Retry Count" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd77338d6192b4fe5a66f939ab396acc6" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="4" result="Pass" start="2024-02-07T06:18:46.450" end="2024-02-07T06:18:46.769" displayTime="0.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="LControlKey,PageUp,,-LControlKey" runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S90a9ad6646234402b52572f94d5a92c4" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="5" result="Pass" start="2024-02-07T06:18:46.784" end="2024-02-07T06:18:47.049" displayTime="0.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="LControlKey,Home,,-LControlKey" runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="5" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S0daa8208f9ed4e8ba6d909b8d63f634d" taskName="P_P_SHS_계산" type="Desktop" name="InputBox" displayName="InputBox" callDepth="1" depth="2" num="6" result="Pass" start="2024-02-07T06:18:47.064" end="2024-02-07T06:18:53.872" displayTime="6.8s">
+    <Variables>
+      <Variable name="Name" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'Hyungsup'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.Name : 'Hyungsup'" runtimeType="String" key="Conditions_Variable" displayKey="Variable" visible="true" required="true" />
+      <Property value="Text" runtimeType="String" key="Conditions_PromptType" displayKey="Prompt Type" visible="true" required="true" />
+      <Property value="'Hyungsup'" runtimeType="String" key="Conditions_DefaultValue" displayKey="Default Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Conditions_DefaultItem" displayKey="Default Value" visible="false" required="false" />
+      <Property value="'제품명을 입력해주세요.'" runtimeType="String" key="Conditions_PromptMessage" displayKey="Guide Message" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Conditions_TimeoutSec" displayKey="Timeout(Sec)" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S891bbc6155744243ae6235c1e7d01601" taskName="P_P_SHS_계산" type="Win" name="TextInput" displayName="TextInput" callDepth="1" depth="2" num="7" result="Pass" start="2024-02-07T06:18:53.887" end="2024-02-07T06:18:56.356" displayTime="2.5s">
+    <Variables>
+      <Variable name="Name" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'Hyungsup'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (1번부터 시작)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="10576" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="EXCEL" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'사출원가 계산1.xlsx - Excel'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="XLMAIN" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Window" runtimeType="String" key="Application_ClassType" displayKey="앱 객체 타입" visible="false" required="false" />
+      <Property value="1573968" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="0,0,960,1160" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;Value;GridItem;SelectionItem;Text" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="B5" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.329186.4.55906" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="DataItem" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'&quot;B&quot; 5'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Window|XLMAIN||Win32/Pane|XLDESK||Win32/Custom|||Win32/Pane|ExcelGrid|사출원가 계산1.xlsx|/Pane||사출원가분석|/ ... 30 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="77,492,67,23" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="114,506" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="114,506" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'37, 14'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="'GVTI-001'" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'&quot;B&quot; 5'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="'GVTI-001'" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="30,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-02-06 14:54:14.843" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="'Hyungsup'" runtimeType="String" key="Keyboard_NewText" displayKey="Input Text" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearAll" displayKey="Clear Before" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseDone" displayKey="Done(Enter)" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseRawEvent" displayKey="Raw Event" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_RetryCount" displayKey="Retry Count" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="63,36,67,23" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'33.5, 11.5'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsPassword" displayKey="IsPassword" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="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" />
+  </Step>
+  <Step id="S02355f31b6df428fa343a317c24c2b78" taskName="P_P_SHS_계산" type="Desktop" name="InputBox" displayName="InputBox" callDepth="1" depth="2" num="8" result="Pass" start="2024-02-07T06:18:56.372" end="2024-02-07T06:18:59.514" displayTime="3.1s">
+    <Variables>
+      <Variable name="Barcode" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'11500500100260'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.Barcode : '11500500100260'" runtimeType="String" key="Conditions_Variable" displayKey="Variable" visible="true" required="true" />
+      <Property value="Text" runtimeType="String" key="Conditions_PromptType" displayKey="Prompt Type" visible="true" required="true" />
+      <Property value="'11500500100260'" runtimeType="String" key="Conditions_DefaultValue" displayKey="Default Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Conditions_DefaultItem" displayKey="Default Value" visible="false" required="false" />
+      <Property value="'[재질] [그레이드] [제품중량] [S/R중량] [설비톤수] [Cav.] [C/T]'" runtimeType="String" key="Conditions_PromptMessage" displayKey="Guide Message" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Conditions_TimeoutSec" displayKey="Timeout(Sec)" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sfecf63ce0407495ca3ad764f9ff38217" taskName="P_P_SHS_계산" type="Win" name="TextInput" displayName="TextInput" callDepth="1" depth="2" num="9" result="Pass" start="2024-02-07T06:18:59.541" end="2024-02-07T06:19:02.388" displayTime="2.8s">
+    <Variables>
+      <Variable name="Barcode" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'11500500100260'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (1번부터 시작)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="10576" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="EXCEL" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'사출원가 계산1.xlsx - Excel'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="XLMAIN" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Window" runtimeType="String" key="Application_ClassType" displayKey="앱 객체 타입" visible="false" required="false" />
+      <Property value="1573968" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8,-8,1936,1176" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;Value;GridItem;SelectionItem;Text" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="C7" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.329186.4.57317" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="DataItem" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'&quot;C&quot; 7'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Window|XLMAIN||Win32/Pane|XLDESK||Win32/Custom|||Win32/Pane|ExcelGrid|사출원가 계산1.xlsx|/Pane||사출원가분석|/ ... 30 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="151,545,517,23" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="386,548" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="394,556" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'243, 11'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="'1.15005E+13'" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'&quot;C&quot; 7'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="'1.15005E+13'" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="1034,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-02-06 15:07:42.759" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="'11500500100260'" runtimeType="String" key="Keyboard_NewText" displayKey="Input Text" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearAll" displayKey="Clear Before" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseDone" displayKey="Done(Enter)" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseRawEvent" displayKey="Raw Event" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_RetryCount" displayKey="Retry Count" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARxSURBVHhe7d1dcpswGIVhrcsL8lp66UV0DV5J7ryUXlDEj4/QEQIaJ3XE+8x8M7VFcPShY3AyDeESrt29a0sIYfrX6HG7dNfiJB/d7RI09rh16kdtrG15/9p17679XON8L7fH9FykYx/u12QRNCI/wKtzjIv+cuvbIc9ta2ONO0tA4vGMwYhvoIuAJMc+2GADSgGJz42VnAXu1y5kK/7Zj9pY484SkJkd1+TYnyIgqTjfML07lOY+P1cba93ZA5I+Pl1A+un315eXLk45zn3tLFEbax0B0bE/xWeQJQVkOJWufc6ojTXu7AFJj33IP4i2YHmA7901WdXDu8NzzuNPMZ7Diw/mtbG2nT4gybEPLV4x5Ad4CEX/3FD5Io8Lfx4L05llVhtrWN6/1nlAevOxnx425WwH+NXonxAQGPonBASG/gkBgaF/QkBg6J8QEBj6JwQEhv5J34v55/wURVlNQWnKx8fH9C/8C/onBASG/gkBgaF/QkBg6J8QEBj6JwQEhv4JAYGhf0JAYOifEBAY+icEBIb+CQGBoX9CQGDonxAQGPonBASG/gkBgaF/QkBg6J8QEBj6JwQEhv4JAYGhf0JAYOifEBAY+ifB/ooDRVGqP79/dRRFlYuAUFSlCAhFVarJD+nAqxAQoIKAABUE5JB499O9N/Nc2XZxY9Cx8htIVm862tt/U9Kx7B7g2XjpNY5Z68t4t9jn6/zAe2gTkF3ivdXnA70VkI1tC/dfTw0LOBmP92ZPF9bW+K79v2yh1uf6uN36iMzGsNjdZN8cAdlBi2r7DLK5bVzAqwt0XESL4eGMcJ0W2tZ4r7r/9Pv7vCN9iV4bzu9BQA7ZtxBG5W2riyRf7IPxXXr4kq3x+GhjER5bpHEO+euV7A8IZ5CmvSggwyXJVOliLV4eJQHYGo+Pavvv/beADOHe27v3QUAO+XxAluI2ySKuBGB4590aN9n+exagbHwpfv1nAjK9/lB79vN+CMghawuhZOe26WXTC84gJrss2z6DpIs6r7VFvmeu036rr/1+CMghXxyQrc8YW+MlhwOSinNYC0XqH+b6QxCQQ74gIPGs8Fw0ha9ZLKqt8YLF/gnIUQTkkLUFWlocpUXTv9tf00ukuE3hF3nJZVT8Pcf+8Z37/5aA9M8tXmc803GJ1bTCQjgUkN7wjq7r+tKH6+GXf/M2hQVVHd/Y/xCQZHys0vd/RHmu+WuV5vruCAhQQUCACgICVBAQoIKAABUh/SkDRVFZlf6jOkVRYxEQiqoUAaGoSjX5IZ2/Lfs59E8ICAz9EwICQ/+EgMDQPyEgMPRPCAgM/RMCAkP/hIDA0D8hIDD0TwgIDP0TAgJD/4SAwNA/ISAw9E8ICAz9EwICQ/+EgMDQPyEgMPRPCAgM/RMCAkP/JMRmUBRVLs4gMPRPCAgM/RMCAkP/hIDA0D8hIDD0TwgIDP0TAgJD/4SAwNA/ISAw9E8ICAz9EwICQ/+EgMDQPyEgMPRPCAgM/RMCAkP/hIDA0L9Z1/0Fw6A/4Y5dQ5gAAAAASUVORK5CYII=" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0,0,200,100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsPassword" displayKey="IsPassword" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="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" />
+  </Step>
+  <Step id="Se689f2ae0eec46d5b85be610a3583ecf" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="10" result="Pass" start="2024-02-07T06:19:02.403" end="2024-02-07T06:19:02.609" displayTime="0.2s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="5" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S5839480e678f4b3f9215291390848258" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="11" result="Pass" start="2024-02-07T06:19:02.625" end="2024-02-07T06:19:02.878" displayTime="0.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="F5," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd347ea069c7749f58ffc2ace734147d0" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="12" result="Pass" start="2024-02-07T06:19:02.892" end="2024-02-07T06:19:03.289" displayTime="0.4s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="P,,D,,F,,Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="5" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sf4aa5d6d3b954bb4a8ea329dfeffe0ad" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="13" result="Pass" start="2024-02-07T06:19:03.307" end="2024-02-07T06:19:03.942" displayTime="0.6s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="LMenu,,F,,E,,P,,Return,,Return,,Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S62aac72cd6534deda3f3827d19058166" taskName="P_P_SHS_계산" type="Win" name="TextInput" displayName="TextInput" callDepth="1" depth="2" num="14" result="Pass" start="2024-02-07T06:19:03.958" end="2024-02-07T06:19:08.472" displayTime="4.5s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (1번부터 시작)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="7736" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="EXCEL" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'사출원가 계산1.xlsx  [읽기 전용] - Excel'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="XLMAIN" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Window" runtimeType="String" key="Application_ClassType" displayKey="앱 객체 타입" visible="false" required="false" />
+      <Property value="461242" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8,-8,1936,1176" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Value;Text;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="1001" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Win32" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.68238" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="Edit" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="Edit" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'파일 이름:'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Window|XLMAIN||Win32/Window|#32770||Win32/Pane|DUIViewWndClassName||Win32/Pane|HWNDView|main|Direct ... 169 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="674,716,791,17" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="793,717" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="801,725" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'127, 9'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="'사출원가 계산1.pdf'" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'파일 이름:'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="'사출원가 계산1.pdf'" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="1582,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-02-06 16:27:22.646" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="'Barcode.pdf'" runtimeType="String" key="Keyboard_NewText" displayKey="Input Text" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearAll" displayKey="Clear Before" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseDone" displayKey="Done(Enter)" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Keyboard_UseRawEvent" displayKey="Raw Event" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Options_RetryCount" displayKey="Retry Count" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAU3SURBVHhe7Z2/atxKGEf1ToIUeRRVrvYZbqcyt9zOrYpbBIxTpjQspAwpguEGFgyGuDEpljQO3GLu/JM0Mxp9Wu16g7J7fnDYlTQjje3vaEabxCl2u51q8/Ly4t8RQkwQhBAhCEKIEAQhRAiCECIEQQgRgiCECEEQQoQgCCFCEIQQIQhCiBAEIUQIghAiBEEIEYIghAhBEEKEIAghQhCEECEIQogQBCFECIIQIgRBCBGCIIQIQRBChCAIIUIQhBAhCEKIECsIAORBEAABBAEQQBAAAQQBEEAQAAEEARBAEAABBAEQQBAAAQQBECj+++dvBQB5EARAAEEABIrir38VHAY5/yDIEZDzjxbkSX30GzbPP9RbXwCr+19qve4L4u3dL98oyP2TO/7+p9rePXRtcwz6+76re6U+vnfHzWvaL3tuva+79sl4UOvn8HvQfq9+qpXeJuefIi4AX8Rd4cbHBoSFu4cgEesfau1leF1BTFG78w2PzSUWxIwvHAc5/2hB4mKaI0hU0DMFsdcJIgkSjqkjI4g7pz6HHvepBAnPS84/s5ZYMaafW2rY7VmCxIUnzyD6OnpMa9+m228E8Un7jInmcOdbWZlconHrmW3r96t7fV0/TjPGLv57RM4/4kO6JMigCIOCnRQlufuPCmKLtR1DsnTKzCAtk4JEYzTb7TXC9xr7NfXb6XnJ+afwr4OYAhoTxBRKbsmz3wzSFqEr1DYDQSI50r76/VGCBDOfxrS3Yx+ckyXWpaebQXJFlRPELjVyhbmXIMks4Jl8SM9xjCDBMtIQChJ/DQhy6SnsnVoXWvfDD9fg0R3cFfeoBFOCZGcEhyjImAjHCJLMIO31h+cMZiy9jSCXl06Qvih6pj7FipgSROAgQQSmBQlEt+K2wgyF4BnksiMKMoslCxLNXm6JZT4Vc0luAuZ6Ptu7J5ZYFx4niN/IZe+iP6Ugo4mXSvvhBAmfQQ6FnH8u8O9iIQjZPwhyBOT8M/rnIIQQBCFEDIIQIoR/cgsggCAAAggCIMAvjgMQKG5vbxUA5CkeHx8VAORBEAABBAEQQBAAAQQBEDixIBtVl6WqN+12o6qiUEVRqWbQFmB59IJsalV2hasLu6rVpj12MLEgm7pUZb2x75uqUFWTtgdYFl4QU8jhXf10gvRSpNcEWB5OkKbq7uzmfWGXQY5uf4deJpW1anSxZ9vYmcj315K1gpgZo21f6P5WvvC6AAvECtJUyZ1cF25V15pc8brniL6wzXY7S4TvNVa2sRnE4GQ7fqYCOA1akLRI2+2xJZCRIN7fPVsYIaomaCstsdrjLLNguWQEmWLYPhQkXjJNCZKZvQAWxGGCJDNI94nUYAYxbZlB4M9FCzK3SE3RB88g0cfDQyF4BoE/GfuQnlv6RFgJ2kJ3RV13n0r1Aljsg7k7VtaNvMQaLMkAloUVZN6d/PXu+k2VyAWwMLwgmsHzwxivI4h5bmH2gKXTC7I3PDfA5XCAIACXA4IACCAIgAC/1QRAgN+LBSCAIAACCAIggCAAAggCIIAgAAIIAiCAIAACCAIggCAAAggCIIAgAAJFWZZKIu3w5cNXVaw+91x/t/tvrj+rq0/uuHlN++22D+qNbxtyc/1VvdvG+yTM+d98eM4eG/JdXYVjDbDnGBnT7tO3qG349ew13jn9k7aW+kF9scef1bv6m7pp28Jvp/D/X3o2OUEidIFd+WI9mSC5AkrIXm8fcmMy+1ZhUZoi7cc4Od5s/3C8U4JpqbsxjQjSXSM9txO//VlEfeAAdup/92Xho80E6IgAAAAASUVORK5CYII=" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0,0,200,100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsPassword" displayKey="IsPassword" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUySURBVHhe7Z0/a9tAGIf1nQQd+lE0ZfJn6Kaxq7esGgshHTsGDB1LhxJowRAINEvoYLqk2/X+Sbo7nV5ZdlxU+/nBQyzpJF2S99HdOWla7HY71ebl5cW/IoSYIAghQhCEECEIQogQBCFECIIQIgRBCBGCIIQIQRBChCAIIUIQhBAhCEKIEAQhRAiCECIEQQgRgiCECEEQQoQgCCFCEIQQIQhCiBAEIUQIghAiBEEIEYIghAhBEEKEIAghQhCEECFWEADIgyAAAggCIIAgAAIIAiCAIAACCAIggCAAAggCIIAgAAIIAiBQFO++KwAYwf9OFiEkEwQhRAhTrCMg5x8EOQJy/tGCPKlPfsPm+Zd66wtgdf9Hrdd9Qby9++MbBbl/csc//Fbbu4eubY7B+f7c1b1Snz644+Zjel722npfd++T8aDWz+HXoP1a/VYrvU3OP0VcAL6Iu8KNjw0IC3cPQSLWv9Tay/C6gpiidtcbHptLLIjpX9gPcv7RgsTFNEeQqKBnCmLvE0QSJOxTR0YQd019Dd3vUwkSXpecf2ZNsWLMeW6qYbdnCRIXnjyC6PvoPq19m26/EcQnPWdMNIe73srK5BL1W49sW79f3ev7+n6aPnbxXyNy/hEX6ZIggyIMCnZSlOTpPyqILda2D8nUKTOCtEwKEvXRbLf3CF9r7OfUb6fXJeef0Z+DmAIaE8QUSm7Ks98I0hahK9Q2A0EiOdJz9eujBAlGPo1pb/s+uCZTrEtPN4LkiioniJ1q5ApzL0GSUcAzuUjPcYwgwTTSEAoSfw4Icukp7JNaF1r3zQ/n4NET3BX3qARTgmRHBIcoyJgIxwiSjCDt/YfXDEYsvY0gl5dOkL4oeqbexYqYEkTgIEEEpgUJRLfitsIMhWANctkRBZnFkgWJRi83xTLvirkkDwFzP5/t3RNTrAuPE8Rv5LJ30Z9SkNHEU6X9cIKEa5BDIeefC/xdLAQh+wdBjoCcf/j3IIQIQRBChCAIIUIQhBAhF7hIB5hB7m8BAYADQQAEitvbWwUAeYrHx0cFAHkQBEAAQQAEEARAAEEABE4syEbVZanqTbvdqKooVFFUqhm0BVgevSCbWpVd4erCrmq1aY8dTCzIpi5VWW/s66YqVNWk7QGWhRfEFHL4VD+dIL0U6T0BlocTpKm6J7t5XdhpkKPb36GnSWWtGl3s2TZ2JPLna8laQcyI0bYv9PlWvvC+AAvECtJUyZNcF25V15pc8bp1RF/YZrsdJcLXGivb2AhicLIdP1IBnAYtSFqk7fbYFMhIEO/v1hZGiKoJ2kpTrPY40yxYLhlBphi2DwWJp0xTgmRGL4AFcZggyQjSvSM1GEFMW0YQ+H/RgswtUlP0wRokent4KARrEPifsYv03NQnwkrQFror6rp7V6oXwGIX5u5YWTfyFGswJQNYFlaQeU/y13vqN1UiF8DC8IJoBuuHMV5HELNuYfSApdMLsjesG+ByOEAQgMsBQQAEEARAgL9qAiDA38UCEEAQAAEEARBAEAABBAEQQBAAAQQBEEAQAAEEARBAEAABBAEQQBAAgaIsSyWRnvD14zdVrL70XP+0+2+uv6irz+64+Ziet9s+qDe+bcjN9Tf1fhvvkzDXf/PxOXtsyE91FfY1wF5jpE+7zz+ituHns1d/55yftLXUD+qrPf6s3tc/1E3bFv454v+TnhMkQhfYlS/WkwmSK6CE7P32Idcns28VFqUp0r6Pk/3Nnh/2d0owLXXXpxFBunuk13bit9+L6Bw4gJ36CyY8Cdn0YvdmAAAAAElFTkSuQmCC" />
+  </Step>
+  <Step id="Sbefcfcfb9fa643139b1fead668b0ae87" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="15" result="Pass" start="2024-02-07T06:19:08.488" end="2024-02-07T06:19:08.748" displayTime="0.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb959a6d599d74720aa2f733b706d672d" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="16" result="Pass" start="2024-02-07T06:19:08.763" end="2024-02-07T06:19:10.508" displayTime="1.7s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Return,,Return," runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="100" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="1000" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="100" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdac99c71d738452ab21b4eadfb3cb173" taskName="P_P_SHS_계산" type="Net" name="SendMail" displayName="SendMail" callDepth="1" depth="2" num="17" result="Pass" start="2024-02-07T06:19:10.523" end="2024-02-07T06:19:10.934" displayTime="0.4s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'smtp.naver.com'" runtimeType="String" key="Mail_HostName" displayKey="Host Name" visible="true" required="true" />
+      <Property value="587" runtimeType="Integer" key="Mail_Port" displayKey="Port" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Mail_UseSSL" displayKey="Use SSL" visible="true" required="true" />
+      <Property value="'shssyup0@naver.com'" runtimeType="String" key="Mail_ID" displayKey="ID" visible="true" required="true" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="Mail_Password" displayKey="Password" visible="true" required="true" />
+      <Property value="'shssyup0@naver.com'" runtimeType="String" key="Mail_Sender" displayKey="Sender" visible="true" required="true" />
+      <Property value="'shssyup0@naver.com'" runtimeType="String" key="Mail_Receivers" displayKey="Receivers" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Mail_CCs" displayKey="CCs" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Mail_BCCs" displayKey="BCCs" visible="true" required="false" />
+      <Property value="'사출 계산기'" runtimeType="String" key="Mail_Subject" displayKey="Subject" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Mail_Body" displayKey="Body" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Mail_IsHtml" displayKey="IsHtml" visible="true" required="false" />
+      <Property value="'C:\\Users\\2class_17\\Desktop\\Barcode.pdf'" runtimeType="String" key="Mail_Attachments" displayKey="Attachements" visible="true" required="false" />
+      <Property value="100" runtimeType="Integer" key="Mail_CheckFileSize" displayKey="File Size (MB)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa4abfe136bfc46ab96df861e4c1d063f" taskName="P_P_SHS_계산" type="Desktop" name="DeleteFile" displayName="DeleteFile" callDepth="1" depth="2" num="18" result="Pass" start="2024-02-07T06:19:10.947" end="2024-02-07T06:19:10.948" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Retry--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'C:\\Users\\2class_17\\Desktop\\Barcode.pdf'" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S7eaa2a859602424db7b7d89eb9a9e9ff" taskName="P_P_SHS_계산" type="Net" name="CloseBrowser" displayName="CloseBrowser" callDepth="1" depth="2" num="19" result="Pass" start="2024-02-07T06:19:10.963" end="2024-02-07T06:19:10.978" displayTime="0s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property runtimeType="Any" key="HTML_BrowserID" displayKey="Browser ID" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="Options_ForceAll" displayKey="ForceAll" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S798228a3eae2416a8db43e79e4ad670f" taskName="P_P_SHS_계산" type="Excel" name="ActivateExcel" displayName="ActivateExcel" callDepth="1" depth="2" num="20" result="Pass" start="2024-02-07T06:19:10.994" end="2024-02-07T06:19:11.014" displayTime="0s">
+    <Variables>
+      <Variable name="openEXCEL" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="Workbook" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S4f8ee7dcd2e8406699158bb340521b69" taskName="P_P_SHS_계산" type="Win" name="KeyInput" displayName="KeyInput" callDepth="1" depth="2" num="21" result="Pass" start="2024-02-07T06:19:11.025" end="2024-02-07T06:19:11.436" displayTime="0.4s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="LControlKey,PageUp,,-LControlKey" runtimeType="StringBuilder" key="Keyboard_KeyInput" displayKey="KeyInput" visible="true" required="true" />
+      <Property value="100" runtimeType="Integer" key="Options_BeforeDelay" displayKey="Before Delay(ms)" visible="true" required="false" />
+      <Property value="50" runtimeType="Integer" key="Options_AfterDelay" displayKey="After Delay(ms)" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Options_Interval" displayKey="Interval(ms)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearKeyState" displayKey="Restore KeyState" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S444468e06d874701a741f21574adb269" taskName="P_P_SHS_계산" type="Desktop" name="InputBox" displayName="InputBox" callDepth="1" depth="2" num="22" result="Pass" start="2024-02-07T06:19:11.451" end="2024-02-07T06:19:19.875" displayTime="8.4s">
+    <Variables>
+      <Variable name="re" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'네'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="--Retry--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.re : '아니요'" runtimeType="String" key="Conditions_Variable" displayKey="Variable" visible="true" required="true" />
+      <Property value="Text" runtimeType="String" key="Conditions_PromptType" displayKey="Prompt Type" visible="true" required="true" />
+      <Property value="'네'" runtimeType="String" key="Conditions_DefaultValue" displayKey="Default Value" visible="true" required="false" />
+      <Property value="Yes" runtimeType="String" key="Conditions_DefaultItem" displayKey="Default Value" visible="false" required="false" />
+      <Property value="'계속 하시겠습니까?'" runtimeType="String" key="Conditions_PromptMessage" displayKey="Guide Message" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Conditions_TimeoutSec" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="Options_GotoStepRelativePosition" displayKey="GotoStep Relative Position" visible="false" required="false" />
+      <Property value="1" runtimeType="String" key="Options_GotoStepRetryCount" displayKey="GotoStep Retry Count" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S4f4f9b8e295a4e5ba13810cae21b9aa6" taskName="P_P_SHS_계산" type="Flow" name="EndDoWhile" displayName="End-DoWhile" callDepth="1" depth="2" num="23" result="Pass" start="2024-02-07T06:19:19.877" end="2024-02-07T06:19:19.879" displayTime="0s">
+    <Variables>
+      <Variable name="re" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'아니요'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="(this.re == true) || (this.re == '네') || (this.re == '1') || (this.re == &quot;네&quot;)" runtimeType="String" key="Conditions_Expression" displayKey="DoWhile Condition" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="End-DoWhile_Condition3" displayKey="Condition3" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="EndDoWhile_Condition2" displayKey="Condition2" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="EndDoWhile_Condition3" displayKey="Condition3" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="EndDoWhile_Condition4" displayKey="Condition4" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sa64401fb6e334efc9530b56751cd09f3" taskName="P_P_SHS_계산" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="1" num="24" result="Pass" start="2024-02-07T06:19:19.896" end="2024-02-07T06:19:19.898" displayTime="0s">
+    <Variables>
+      <Variable name="re" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'아니요'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="(this.re == &quot;아니요&quot;) || (this.re == &quot;아뇨&quot;) || (this.re == 'ㄴㄴ') || (this.re == 2) || (this.re == '2')" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="IfThen_Condition2" displayKey="Condition2" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="IfThen_Condition3" displayKey="Condition3" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="IfThen_Condition4" displayKey="Condition4" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="IfThen_Condition5" displayKey="Condition5" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S8f1ebc32a52a4b5ea55e5e293c8a5b66" taskName="P_P_SHS_계산" type="Excel" name="CloseExcel" displayName="CloseExcel" callDepth="1" depth="2" num="25" result="Pass" start="2024-02-07T06:19:19.913" end="2024-02-07T06:19:21.182" displayTime="1.3s">
+    <Variables>
+      <Variable name="openEXCEL" scope="Normal" owner="P_P_SHS_계산" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="Workbook" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="File_Force" displayKey="Force" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sf234694997fd4cc880893a65a9fae6c0" taskName="P_P_SHS_계산" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="2" num="26" result="Pass" start="2024-02-07T06:19:21.196" end="2024-02-07T06:19:21.200" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-6FFJE" />
+  </JobInfo>
+</Result>
